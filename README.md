@@ -130,7 +130,7 @@
 
 ### Importando a biblioteca ```pymysql``` utilizando Lambda Layers
 
-- Lambda Dashboard -> Layers -> Create layer -> Name [nome_da_layer] -> Upload a .zip file - o arquivo ```pyton.zip``` está disponível na pasta ```src``` do projeto -> Compatible architectures x86_64 -> Compatible runtimes - Python 3.9 -> Create
+- Lambda Dashboard -> Layers -> Create layer -> Name [nome_da_layer] -> Upload a .zip file - o arquivo ```pymsql-python.zip``` está disponível na pasta ```src``` do projeto -> Compatible architectures x86_64 -> Compatible runtimes - Python 3.9 -> Create
 - Lambda Dashboard -> selecionar a função criada -> Layers -> Add a layer -> Custom layers -> selecionar o layer criado anteriormente -> Add
 
 ### Testando a função criada
